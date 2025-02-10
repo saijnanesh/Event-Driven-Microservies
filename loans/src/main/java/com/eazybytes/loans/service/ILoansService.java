@@ -1,14 +1,15 @@
 package com.eazybytes.loans.service;
 
 import com.eazybytes.loans.dto.LoansDto;
+import com.eazybytes.loans.entity.*;
 
 public interface ILoansService {
 
     /**
      *
-     * @param mobileNumber - Mobile Number of the Customer
+     * @param loans - Mobile Number of the Customer
      */
-    void createLoan(String mobileNumber);
+    void createLoan(Loans loans);
 
     /**
      *

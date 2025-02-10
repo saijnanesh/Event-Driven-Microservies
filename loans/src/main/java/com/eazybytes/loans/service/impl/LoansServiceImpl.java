@@ -21,16 +21,16 @@ public class LoansServiceImpl implements ILoansService {
     private LoansRepository loansRepository;
 
     /**
-     * @param mobileNumber - Mobile Number of the Customer
+     * @param loans - Mobile Number of the Customer
      */
     @Override
-    public void createLoan(String mobileNumber) {
-        Optional<Loans> optionalLoan = loansRepository.findByMobileNumberAndActiveSw(mobileNumber,
+    public void createLoan(Loans loans) {
+        Optional<Loans> optionalLoan = loansRepository.findByMobileNumberAndActiveSw(loans.getMobileNumber(),
                 LoansConstants.ACTIVE_SW);
         if (optionalLoan.isPresent()) {
-            throw new LoanAlreadyExistsException("Loan already registered with given mobileNumber " + mobileNumber);
+            throw new LoanAlreadyExistsException("Loan already registered with given mobileNumber " + loans.getMobileNumber());
         }
-        loansRepository.save(LoansMapper.createNewLoan(mobileNumber));
+        loansRepository.save(loans);
     }
 
     /**
