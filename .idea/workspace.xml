@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="709cbeba-89b4-46dc-86c4-e7f28a8a2a65" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Event-Driven-Microservies.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/CustomersApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/audit/AuditAwareImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/command/CreateCustomerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/command/DeleteCustomerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/command/UpdateCustomerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/command/aggregate/CustomerAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/command/controller/CustomerCommandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/command/event/CustomerCreatedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/command/event/CustomerDeletedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/command/event/CustomerUpdatedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/command/interceptor/CustomerCommandInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/constants/CustomerConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/dto/CustomerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/dto/ResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/exception/CustomerAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/mapper/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/query/FindCustomerQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/query/controller/CustomerQueryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/query/handler/CustomerQueryHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/query/projection/CustomerProjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/java/com/eazybytes/customer/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/src/test/java/com/eazybytes/customer/AccountsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/CustomersApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/audit/AuditAwareImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/command/CreateCustomerCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/command/DeleteCustomerCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/command/UpdateCustomerCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/command/aggregate/CustomerAggregate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/command/controller/CustomerCommandController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/command/event/CustomerCreatedEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/command/event/CustomerDeletedEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/command/event/CustomerUpdatedEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/command/interceptor/CustomerCommandInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/constants/CustomerConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/dto/CustomerDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/dto/ResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/entity/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/entity/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/exception/CustomerAlreadyExistsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/exception/ResourceNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/mapper/CustomerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/query/FindCustomerQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/query/controller/CustomerQueryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/query/handler/CustomerQueryHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/query/projection/CustomerProjection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/repository/CustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/service/ICustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/com/eazybytes/customer/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/target/classes/schema.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2sts4N38IxzuOjrEQ4B6IZZ02Rn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/MicroserviceDesignPatterns/ui/event-driven-microservices/Event-Driven-Microservies"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MicroserviceDesignPatterns\ui\event-driven-microservices\Event-Driven-Microservies" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="709cbeba-89b4-46dc-86c4-e7f28a8a2a65" name="Changes" comment="" />
+      <created>1739286014347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739286014347</updated>
+    </task>
+    <servers />
+  </component>
+</project>
